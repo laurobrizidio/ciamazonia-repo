@@ -1,0 +1,7 @@
+sudo apt update
+sudo apt install -y iverilog gtkwave build-essential
+cd ~
+mkdir -p projetos/verilog_somador4bits/{src, sim, docs}
+
+cd projetos/verilog_somador4bits
+nano src/adder4.v
