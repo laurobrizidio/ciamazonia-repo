@@ -142,12 +142,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "PCM_SparkFun-DiscreteSemi:Q_NMOS_0.2A_20V"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -161,7 +159,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
+			(property "Value" "RE1C002UNTCL"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -170,8 +168,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:SC-89 SOT-490"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -179,7 +177,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -188,8 +186,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
+			(property "Description" "N-MOSFET transistor, drain/gate/source"
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -197,25 +195,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
+			(property "PROD_ID" "TRANS-14399"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -224,7 +204,23 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "IMax" "0.2A"
+				(at 7.62 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "VMax" "20V"
+				(at 7.62 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Switching transistor NMOS N-MOS N-MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -233,7 +229,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(symbol "Q_NMOS_0.2A_20V_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -400,10 +396,10 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
+			(symbol "Q_NMOS_0.2A_20V_1_1"
 				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
+					(at -2.54 0 0)
+					(length 0)
 					(name "G"
 						(effects
 							(font
@@ -411,7 +407,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -429,7 +425,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -447,7 +443,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -458,12 +454,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "PCM_SparkFun-DiscreteSemi:Q_PMOS_0.1A_20V"
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -477,7 +471,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PMOS"
+			(property "Value" "RE1C001ZPTL"
 				(at 5.08 -1.27 0)
 				(effects
 					(font
@@ -486,8 +480,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:SC-89 SOT-490"
+				(at 0 -9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -495,8 +489,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c001zptl-e.pdf"
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -504,7 +498,41 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(property "Description" "P-MOSFET transistor, drain/gate/source"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "TRANS-15421"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IMax" "0.1A"
+				(at 7.62 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "VMax" "20V"
+				(at 7.62 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun transistor PMOS P-MOS P-MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -513,43 +541,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMOS_0_1"
+			(symbol "Q_PMOS_0.1A_20V_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -716,10 +708,10 @@
 					)
 				)
 			)
-			(symbol "PMOS_1_1"
+			(symbol "Q_PMOS_0.1A_20V_1_1"
 				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
+					(at -2.54 0 0)
+					(length 0)
 					(name "G"
 						(effects
 							(font
@@ -727,7 +719,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -745,7 +737,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -763,7 +755,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -926,7 +918,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 55.88) (xy 113.03 55.88)
+			(xy 109.22 55.88) (xy 115.57 55.88)
 		)
 		(stroke
 			(width 0)
@@ -986,7 +978,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 105.41) (xy 104.14 105.41)
+			(xy 104.14 105.41) (xy 110.49 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1013,6 +1005,16 @@
 			(type default)
 		)
 		(uuid "47c86fcf-a985-49fa-8282-9e76c8c4f73b")
+	)
+	(wire
+		(pts
+			(xy 123.19 104.14) (xy 125.73 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bcca504-6e52-461c-93e3-8f8598b42b5c")
 	)
 	(wire
 		(pts
@@ -1053,6 +1055,16 @@
 			(type default)
 		)
 		(uuid "6340d2a4-b0e3-4800-96ac-03c0cada80b4")
+	)
+	(wire
+		(pts
+			(xy 138.43 104.14) (xy 140.97 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b969c5-6d44-40ce-a5bf-b0b1d7779ac0")
 	)
 	(wire
 		(pts
@@ -1136,7 +1148,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 86.36) (xy 113.03 86.36)
+			(xy 106.68 86.36) (xy 115.57 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1306,7 +1318,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 69.85) (xy 104.14 69.85)
+			(xy 104.14 69.85) (xy 115.57 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1373,106 +1385,6 @@
 			(type default)
 		)
 		(uuid "ffc609b3-0167-4290-9405-8ae0ca299f5a")
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 118.11 86.36 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "100a2446-b2b8-4b1d-99ee-02452d9ec0cb")
-		(property "Reference" "Q2"
-			(at 124.46 87.6301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 124.46 85.0901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 118.11 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 118.11 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 118.11 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 118.11 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "efd911b3-f84a-4363-af39-f7b9b07c7acd")
-		)
-		(pin "2"
-			(uuid "305aeae1-3368-46ce-8bf0-5e881c2dd647")
-		)
-		(pin "1"
-			(uuid "0b4abb3d-c859-4863-83db-45a1870693e1")
-		)
-		(instances
-			(project "norgate"
-				(path "/5513f414-485f-4f75-82b4-cc0d717f436e"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
@@ -1599,106 +1511,6 @@
 			(project "norgate"
 				(path "/5513f414-485f-4f75-82b4-cc0d717f436e"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 118.11 69.85 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "486f5993-b90b-43ad-a043-84626186c27b")
-		(property "Reference" "Q1"
-			(at 124.46 71.1201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 124.46 68.5801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 118.11 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 118.11 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 118.11 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 118.11 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 118.11 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0677cf33-99d0-4f93-99c6-c89db6bb9bd6")
-		)
-		(pin "2"
-			(uuid "104ec22a-7894-49b8-bd07-fb205202ef96")
-		)
-		(pin "1"
-			(uuid "df0c2517-4829-4ade-a2c5-dcfbade7c7cf")
-		)
-		(instances
-			(project ""
-				(path "/5513f414-485f-4f75-82b4-cc0d717f436e"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -1838,7 +1650,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "PCM_SparkFun-DiscreteSemi:Q_NMOS_0.2A_20V")
 		(at 143.51 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1846,8 +1658,17 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b6c4620f-878b-47b4-9c54-8fad4539bd8a")
-		(property "Reference" "Q5"
+		(uuid "6f1ac761-0eeb-4b2a-a60e-9da02cbab745")
+		(property "Reference" "Q4"
+			(at 149.86 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RE1C002UNTCL"
 			(at 149.86 102.8699 0)
 			(effects
 				(font
@@ -1856,17 +1677,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
-			(at 149.86 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 101.6 0)
+		(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:SC-89 SOT-490"
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +1686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
 			(at 143.51 116.84 0)
 			(effects
 				(font
@@ -1883,8 +1695,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 143.51 104.14 0)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 143.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,25 +1704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "NMOS"
-			(at 143.51 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 143.51 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
+		(property "PROD_ID" "TRANS-14399"
 			(at 143.51 119.38 0)
 			(effects
 				(font
@@ -1919,36 +1713,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "13f67a6b-2f57-4b34-bdc2-d8d8272d1124")
-		)
-		(pin "2"
-			(uuid "0c7f1055-dade-4185-bae1-e5ea0055c1c4")
-		)
-		(pin "3"
-			(uuid "7f2330ea-eb96-428d-b2b6-9561dae2ba09")
-		)
-		(instances
-			(project "norgate"
-				(path "/5513f414-485f-4f75-82b4-cc0d717f436e"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 128.27 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c983a208-2a76-4254-b5a3-0207861f2887")
-		(property "Reference" "Q4"
-			(at 134.62 102.8699 0)
+		(property "IMax" "0.2A"
+			(at 149.86 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,8 +1722,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
-			(at 134.62 105.4099 0)
+		(property "VMax" "20V"
+			(at 149.86 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,68 +1731,14 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 133.35 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 128.27 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 128.27 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 128.27 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 128.27 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 128.27 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "46f626a2-4432-44c8-bd2a-d11a72658011")
 		)
 		(pin "1"
-			(uuid "aaaace0b-965d-48b5-b4f2-fd22222b6ee6")
+			(uuid "184b62b2-5724-4493-b8ea-cf152d4fd4a2")
 		)
 		(pin "2"
-			(uuid "7d250168-2822-4c4d-a3c9-3a42b4679ab3")
-		)
-		(pin "3"
-			(uuid "3590e9c2-c786-4332-ae8b-e60c7d7f2889")
+			(uuid "67d1e981-b97e-4002-a048-a231da6ffc6b")
 		)
 		(instances
 			(project "norgate"
@@ -2038,7 +1750,307 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
+		(lib_id "PCM_SparkFun-DiscreteSemi:Q_PMOS_0.1A_20V")
+		(at 118.11 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ed83427-467a-46c3-b48f-e0f7a65eedc8")
+		(property "Reference" "Q2"
+			(at 124.46 90.1701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RE1C001ZPTL"
+			(at 124.46 87.6301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:SC-89 SOT-490"
+			(at 118.11 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c001zptl-e.pdf"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/gate/source"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "TRANS-15421"
+			(at 118.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IMax" "0.1A"
+			(at 124.46 85.0901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VMax" "20V"
+			(at 124.46 82.5501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "34fb98e7-4aa6-4dbe-a568-121b2ccd6ef0")
+		)
+		(pin "2"
+			(uuid "e998a270-5459-4bfe-b639-1b24fc3f8ca3")
+		)
+		(pin "1"
+			(uuid "1a3fef85-116f-481d-b99e-c662bbe6fc05")
+		)
+		(instances
+			(project "norgate"
+				(path "/5513f414-485f-4f75-82b4-cc0d717f436e"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-DiscreteSemi:Q_PMOS_0.1A_20V")
+		(at 118.11 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a52fa121-0813-4ab8-9cbb-6dc791165db6")
+		(property "Reference" "Q1"
+			(at 124.46 73.6601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RE1C001ZPTL"
+			(at 124.46 71.1201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:SC-89 SOT-490"
+			(at 118.11 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c001zptl-e.pdf"
+			(at 118.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/gate/source"
+			(at 118.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "TRANS-15421"
+			(at 118.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IMax" "0.1A"
+			(at 124.46 68.5801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VMax" "20V"
+			(at 124.46 66.0401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "aa8bdd9d-b123-42df-ae10-5f6f6f5c4c43")
+		)
+		(pin "2"
+			(uuid "8cc5f21c-1426-4f68-9a1a-a856fbf4e1d7")
+		)
+		(pin "1"
+			(uuid "9f51840b-f0c8-445e-a13d-e79310015633")
+		)
+		(instances
+			(project "norgate"
+				(path "/5513f414-485f-4f75-82b4-cc0d717f436e"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-DiscreteSemi:Q_NMOS_0.2A_20V")
+		(at 128.27 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7523df9-4de4-41f4-a094-093a0963aea7")
+		(property "Reference" "Q3"
+			(at 134.62 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RE1C002UNTCL"
+			(at 134.62 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:SC-89 SOT-490"
+			(at 128.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
+			(at 128.27 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 128.27 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "TRANS-14399"
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IMax" "0.2A"
+			(at 134.62 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VMax" "20V"
+			(at 134.62 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "24f9071b-a37e-42d5-987a-e5f0271a48aa")
+		)
+		(pin "1"
+			(uuid "21c2cd02-1e21-46d2-8a70-b036b835ee84")
+		)
+		(pin "2"
+			(uuid "e572310a-d491-4678-a1a1-c1a02aa895a9")
+		)
+		(instances
+			(project "norgate"
+				(path "/5513f414-485f-4f75-82b4-cc0d717f436e"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-DiscreteSemi:Q_NMOS_0.2A_20V")
 		(at 113.03 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2046,8 +2058,17 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e23adf90-b9aa-4ec8-92cf-49019a90278f")
-		(property "Reference" "Q3"
+		(uuid "c122632f-2a3c-4427-aba3-cb05affca5f5")
+		(property "Reference" "Q7"
+			(at 119.38 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RE1C002UNTCL"
 			(at 119.38 104.1399 0)
 			(effects
 				(font
@@ -2056,18 +2077,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
-			(at 119.38 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 102.87 0)
+		(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:SC-89 SOT-490"
+			(at 113.03 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,7 +2086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf"
 			(at 113.03 118.11 0)
 			(effects
 				(font
@@ -2084,8 +2095,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 113.03 105.41 0)
+		(property "Description" "N-MOSFET transistor, drain/gate/source"
+			(at 113.03 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,25 +2104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "NMOS"
-			(at 113.03 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 113.03 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
+		(property "PROD_ID" "TRANS-14399"
 			(at 113.03 120.65 0)
 			(effects
 				(font
@@ -2120,19 +2113,137 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "1a11da84-bf6b-48b5-a4c8-b08bcafce6a5")
+		(property "IMax" "0.2A"
+			(at 119.38 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
-		(pin "2"
-			(uuid "48c5607b-46a7-40e1-bcac-e7de726d28c9")
+		(property "VMax" "20V"
+			(at 119.38 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
 		(pin "3"
-			(uuid "ff6d1c4a-4044-4bed-ba23-937ffc61b0a6")
+			(uuid "028bc3e6-a5a6-4a05-b89a-b79063571339")
+		)
+		(pin "1"
+			(uuid "16c1f783-80b8-46bb-b7d2-a70e9e71d022")
+		)
+		(pin "2"
+			(uuid "b432a913-2807-4061-939b-c4565d418c71")
 		)
 		(instances
 			(project ""
 				(path "/5513f414-485f-4f75-82b4-cc0d717f436e"
-					(reference "Q3")
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-DiscreteSemi:Q_PMOS_0.1A_20V")
+		(at 118.11 55.88 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e23b57a1-59ed-437f-82e5-d133f985444e")
+		(property "Reference" "Q5"
+			(at 124.46 59.6901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RE1C001ZPTL"
+			(at 124.46 57.1501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:SC-89 SOT-490"
+			(at 118.11 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c001zptl-e.pdf"
+			(at 118.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/gate/source"
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "TRANS-15421"
+			(at 118.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IMax" "0.1A"
+			(at 124.46 54.6101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VMax" "20V"
+			(at 124.46 52.0701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "4cc94fbf-c901-484a-82b2-615db012290b")
+		)
+		(pin "2"
+			(uuid "4d33b94d-5dc6-4e0d-aa65-e6f68cee3b09")
+		)
+		(pin "1"
+			(uuid "ca11a22a-6c39-4684-8f10-5c13dee101cb")
+		)
+		(instances
+			(project ""
+				(path "/5513f414-485f-4f75-82b4-cc0d717f436e"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -2198,106 +2309,6 @@
 			(project "norgate"
 				(path "/5513f414-485f-4f75-82b4-cc0d717f436e"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 118.11 55.88 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7963134-d85c-4e0e-b9ad-f7fc7cbc6d9a")
-		(property "Reference" "Q6"
-			(at 124.46 57.1501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 124.46 54.6101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "eteste"
-			(at 123.19 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 118.11 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 118.11 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 118.11 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 118.11 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 118.11 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cd34e0de-9e7d-4e6b-92d9-9496ed93554f")
-		)
-		(pin "2"
-			(uuid "46866d95-d616-4803-af0f-aa4272e01d1e")
-		)
-		(pin "1"
-			(uuid "d0c3838f-165b-4426-9fcb-b79b53a3846a")
-		)
-		(instances
-			(project "norgate"
-				(path "/5513f414-485f-4f75-82b4-cc0d717f436e"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
