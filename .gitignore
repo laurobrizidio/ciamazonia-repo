@@ -7,6 +7,9 @@
 *.o
 *.so
 
+
+
+
 # Logs and databases #
 ######################
 *.log
@@ -22,3 +25,37 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# GTKWave session files
+*.gtkw
+
+# Editor files
+.vscode/
+.idea/
+
+
+# =========================
+# KiCad
+# =========================
+
+# Cache files
+*-cache.lib
+*-rescue.lib
+*-cache.kicad_sym
+
+# Temporary files
+*.bak
+*.bck
+*.kicad_prl
+*.kicad_pro-bak
+*.sch-bak
+
+# Lock files
+*.kicad_pcb-bak
+
+# Generated fabrication files (gerbers, drills)
+gerbers/
+*.gbr
+*.drl
+
+
