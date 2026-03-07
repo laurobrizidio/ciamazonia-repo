@@ -48,7 +48,7 @@
 - Design for Manufacturability (DFM) e problemas de fabricação.
 - Efeitos parasitas, calibração, migração de tecnologia e tapeout de circuitos integrados.
 
-#Unidade 5 – Design Digital
+## Unidade 5 – Design Digital
 
 - Introdução à linguagem HDL (SystemVerilog): modelagem comportamental e estrutural.
 - Simulação lógica e análise temporal básica.
@@ -58,14 +58,14 @@
 - Introdução a teoria de grafos.
 - BDD, ROBDDs, STAMINA e NOVA.
 
-# Unidade 6 – Otimização do processo CMOS (VLSI)
+## Unidade 6 – Otimização do processo CMOS (VLSI)
 
 - Delay: Otimização de tempo, Resposta do transiente, RC delay model, impacto do layout na capacitância, Modelo de atraso linear, Esforço Lógico, Parasitic delay.
 - Potência: Potência dinâmica e estática, clock gating, glitches, DVFS em SoCs, corrente de curto-circuito, subthreshold (DIBL) e gate leakage, BTBT e GIDL, multi-VDD e otimização do atraso-energia.
 - Interconexões: Geometria dos fios, modelagem de interconexões (resistência, capacitância, indutância, skin effect e temperatura), delay, controle de crosstalk, ruído, repetidores e regeneradores
 - Robustez: Variabilidade: Tensão de Alimentação, Temperatura, Variação do processo, Design corners; Confiabilidade: Terminologia de Confiabilidade, Desgaste do Óxido, Desgaste das Interconexões, Erros Suaves, Falha por Sobretensão, Latchup; Escalonamento: Escalonamento de Transistores, Escalonamento de Interconexões, Roteiro Tecnológico Internacional para Semicondutores, Impactos no Projeto.
 
-# Unidade 7 - Fluxo de projeto ASIC
+## Unidade 7 - Fluxo de projeto ASIC
 
 - Design Flow: Evolução, era da integração, ferramentas incrementais, acesso esparso e desafios futuros.
 - Síntese lógica: síntese RTL, minimização em 2 e múltiplos níveis, modelagem de biblioteca, análise de tempo (STA) e síntese física.
