@@ -1,5 +1,22 @@
 # CI Amazonia - Curso de Microeletrônica
 
+## Repositórios Internos
+
+- [Unidade 1 - Básico de Linux para Projetos Eletrônicos](unid01_fund_linux/)
+- [Unidade 2 - Fundamentos de Eletrônica Digital](unid02_fundeletronicadigital/)
+  - [Simulações LTspice](unid02_fundeletronicadigital/ltspice_simulations/)
+- [Unidade 3 - Fundamentos de CMOS / LTspice](unid03_ltspice/)
+- [Unidade 4 - KiCad e VLSI](unid04_kicad/)
+  - [Projeto NOR Gate](unid04_kicad/norgate/)
+- [Unidade 5 - Design Digital / UNICASS](unid05_unicass/)
+  - [Atividade 01](unid05_unicass/atv01/)
+  - [MUX 4:1](unid05_unicass/atv01/mux4/)
+  - [Aula 06/03 - Somador](unid05_unicass/aula0603/)
+  - [Atividade 02](unid05_unicass/atv02/)
+- [Projeto Final - Array SRAM 6T 4x4](projetofinal/)
+
+## Conteúdo Programático
+
 ## Unidade 1 – Básico de Linux para Projetos Eletrônicos (3 semanas)
 
 - Conceitos fundamentais do sistema operacional Linux.
