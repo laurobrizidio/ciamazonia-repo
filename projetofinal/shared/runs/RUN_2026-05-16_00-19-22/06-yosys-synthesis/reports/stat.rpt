@@ -1,0 +1,29 @@
+124. Printing statistics.
+
+=== sram ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       89        - wires
+       91        - wire bits
+       25        - public wires
+       27        - public wire bits
+        9        - ports
+       11        - port bits
+       82 1.63E+03 cells
+        1   14.515   sg13g2_and4_1
+       16  783.821   sg13g2_dfrbpq_1
+       16  290.304   sg13g2_mux2_1
+        4   152.41   sg13g2_mux4_1
+        2   14.515   sg13g2_nand2_1
+        9   81.648   sg13g2_nand2b_1
+        1   10.886   sg13g2_nand4_1
+       12  108.864   sg13g2_nor3_1
+        4   43.546   sg13g2_nor4_1
+        1    9.072   sg13g2_or2_1
+       16  116.122   sg13g2_tiehi
+
+   Chip area for module '\sram': 1625.702400
+     of which used for sequential elements: 783.820800 (48.21%)
+

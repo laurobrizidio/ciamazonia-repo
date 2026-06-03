@@ -1,0 +1,22 @@
+
+16. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\sram.\i' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.\j' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$3_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$4_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$5_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$6_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$7_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$8_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$9_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$10_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$11_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$12_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$13_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$14_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$15_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$16_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$17_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.$memwr$\memory$/home/designer/shared/sram.v:35$18_EN' from process `\sram.$proc$/home/designer/shared/sram.v:32$57'.
+No latch inferred for signal `\sram.\data_out' from process `\sram.$proc$/home/designer/shared/sram.v:55$31'.
+No latch inferred for signal `\sram.\data_out_bar' from process `\sram.$proc$/home/designer/shared/sram.v:55$31'.

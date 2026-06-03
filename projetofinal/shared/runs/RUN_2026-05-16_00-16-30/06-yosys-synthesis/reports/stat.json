@@ -1,0 +1,63 @@
+{
+   "creator": "Yosys 0.62 (git sha1 7326bb7d6641500ecb285c291a54a662cb1e76cf, clang++ 21.1.2 -fPIC -O3)",
+   "invocation": "stat -json -liberty /home/designer/shared/runs/RUN_2026-05-16_00-16-30/tmp/776c6f16951b455c8239a141c557f1f4.lib -liberty /home/designer/shared/runs/RUN_2026-05-16_00-16-30/tmp/236c3294e1d741dd8b7bda07ce4fbd1e.lib ",
+   "modules": {
+      "\\sram": {
+         "num_wires":         89,
+         "num_wire_bits":     91,
+         "num_pub_wires":     25,
+         "num_pub_wire_bits": 27,
+         "num_ports":         9,
+         "num_port_bits":     11,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         82,
+         "num_submodules":       0,
+         "area":              1625.702400,
+         "sequential_area":    783.820800,
+         "num_cells_by_type": {
+            "sg13g2_and4_1": 1,
+            "sg13g2_dfrbpq_1": 16,
+            "sg13g2_mux2_1": 16,
+            "sg13g2_mux4_1": 4,
+            "sg13g2_nand2_1": 2,
+            "sg13g2_nand2b_1": 9,
+            "sg13g2_nand4_1": 1,
+            "sg13g2_nor3_1": 12,
+            "sg13g2_nor4_1": 4,
+            "sg13g2_or2_1": 1,
+            "sg13g2_tiehi": 16
+         }
+      }
+   },
+      "design": {
+         "num_wires":         89,
+         "num_wire_bits":     91,
+         "num_pub_wires":     25,
+         "num_pub_wire_bits": 27,
+         "num_ports":         9,
+         "num_port_bits":     11,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         82,
+         "num_submodules":       0,
+         "area":              1625.702400,
+         "sequential_area":    783.820800,
+         "num_cells_by_type": {
+            "sg13g2_and4_1": 1,
+            "sg13g2_dfrbpq_1": 16,
+            "sg13g2_mux2_1": 16,
+            "sg13g2_mux4_1": 4,
+            "sg13g2_nand2_1": 2,
+            "sg13g2_nand2b_1": 9,
+            "sg13g2_nand4_1": 1,
+            "sg13g2_nor3_1": 12,
+            "sg13g2_nor4_1": 4,
+            "sg13g2_or2_1": 1,
+            "sg13g2_tiehi": 16
+         }
+      }
+}
+

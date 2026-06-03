@@ -1,0 +1,1073 @@
+{
+  "creator": "Yosys 0.62 (git sha1 7326bb7d6641500ecb285c291a54a662cb1e76cf, clang++ 21.1.2 -fPIC -O3)",
+  "modules": {
+    "sram": {
+      "attributes": {
+        "hdlname": "sram",
+        "top": "00000000000000000000000000000001",
+        "src": "/home/designer/shared/sram_project/sram.v:7.1-66.10"
+      },
+      "ports": {
+        "clk": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "cs": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "wr_n": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "rd_n": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "row_addr": {
+          "direction": "input",
+          "bits": [ 6, 7 ]
+        },
+        "col_addr": {
+          "direction": "input",
+          "bits": [ 8, 9 ]
+        },
+        "data_in": {
+          "direction": "input",
+          "bits": [ 10 ]
+        },
+        "data_out": {
+          "direction": "output",
+          "bits": [ 11 ]
+        },
+        "data_out_bar": {
+          "direction": "output",
+          "bits": [ 12 ]
+        }
+      },
+      "cells": {
+        "$add$/home/designer/shared/sram_project/sram.v:41$30": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000100000",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000010",
+            "Y_WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:41.29-41.39"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44 ],
+            "B": [ 8, 9 ],
+            "Y": [ 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76 ]
+          }
+        },
+        "$add$/home/designer/shared/sram_project/sram.v:53$36": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000100000",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000010",
+            "Y_WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:53.44-53.54"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108 ],
+            "B": [ 8, 9 ],
+            "Y": [ 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140 ]
+          }
+        },
+        "$add$/home/designer/shared/sram_project/sram.v:54$39": {
+          "hide_name": 1,
+          "type": "$add",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000100000",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000010",
+            "Y_WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:54.45-54.55"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172 ],
+            "B": [ 8, 9 ],
+            "Y": [ 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204 ]
+          }
+        },
+        "$auto$proc_memwr.cc:45:proc_memwr$92": {
+          "hide_name": 1,
+          "type": "$memwr_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "CLK_ENABLE": "1",
+            "CLK_POLARITY": "1",
+            "MEMID": "\\memory",
+            "PORTID": "00000000000000000000000000000000",
+            "PRIORITY_MASK": "",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:41.13-41.50"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "CLK": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236 ],
+            "CLK": [ 2 ],
+            "DATA": [ 237 ],
+            "EN": [ 238 ]
+          }
+        },
+        "$logic_and$/home/designer/shared/sram_project/sram.v:40$25": {
+          "hide_name": 1,
+          "type": "$logic_and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:40.13-40.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 239 ],
+            "Y": [ 240 ]
+          }
+        },
+        "$logic_and$/home/designer/shared/sram_project/sram.v:51$33": {
+          "hide_name": 1,
+          "type": "$logic_and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:51.13-51.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "B": [ 241 ],
+            "Y": [ 242 ]
+          }
+        },
+        "$logic_not$/home/designer/shared/sram_project/sram.v:40$24": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:40.19-40.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "Y": [ 239 ]
+          }
+        },
+        "$logic_not$/home/designer/shared/sram_project/sram.v:51$32": {
+          "hide_name": 1,
+          "type": "$logic_not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:51.19-51.24"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "Y": [ 241 ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$41": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000101001",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$42": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000101010",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$43": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000101011",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$44": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000101100",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$45": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000101101",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "0", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$46": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000101110",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "1", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$47": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000101111",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "0", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$48": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000110000",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$49": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000110001",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "0", "0", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$50": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000110010",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "1", "0", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$51": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000110011",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "0", "1", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$52": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000110100",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "1", "1", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$53": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000110101",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "0", "0", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$54": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000110110",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "1", "0", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$55": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000110111",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "0", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$meminit$\\memory$/home/designer/shared/sram_project/sram.v:30$56": {
+          "hide_name": 1,
+          "type": "$meminit_v2",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "MEMID": "\\memory",
+            "PRIORITY": "00000000000000000000000000111000",
+            "WIDTH": "00000000000000000000000000000001",
+            "WORDS": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:30.17-30.36"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "DATA": "input",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "DATA": [ "0" ],
+            "EN": [ "1" ]
+          }
+        },
+        "$memrd$\\memory$/home/designer/shared/sram_project/sram.v:53$34": {
+          "hide_name": 1,
+          "type": "$memrd",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "CLK_ENABLE": "00000000000000000000000000000000",
+            "CLK_POLARITY": "00000000000000000000000000000000",
+            "MEMID": "\\memory",
+            "TRANSPARENT": "00000000000000000000000000000000",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:53.28-53.34"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "CLK": "input",
+            "DATA": "output",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140 ],
+            "CLK": [ "x" ],
+            "DATA": [ 243 ],
+            "EN": [ "x" ]
+          }
+        },
+        "$memrd$\\memory$/home/designer/shared/sram_project/sram.v:54$37": {
+          "hide_name": 1,
+          "type": "$memrd",
+          "parameters": {
+            "ABITS": "00000000000000000000000000100000",
+            "CLK_ENABLE": "00000000000000000000000000000000",
+            "CLK_POLARITY": "00000000000000000000000000000000",
+            "MEMID": "\\memory",
+            "TRANSPARENT": "00000000000000000000000000000000",
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:54.29-54.35"
+          },
+          "port_directions": {
+            "ADDR": "input",
+            "CLK": "input",
+            "DATA": "output",
+            "EN": "input"
+          },
+          "connections": {
+            "ADDR": [ 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204 ],
+            "CLK": [ "x" ],
+            "DATA": [ 244 ],
+            "EN": [ "x" ]
+          }
+        },
+        "$mul$/home/designer/shared/sram_project/sram.v:41$29": {
+          "hide_name": 1,
+          "type": "$mul",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000010",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000100000",
+            "Y_WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:41.20-41.28"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6, 7 ],
+            "B": [ "0", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "Y": [ 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44 ]
+          }
+        },
+        "$mul$/home/designer/shared/sram_project/sram.v:53$35": {
+          "hide_name": 1,
+          "type": "$mul",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000010",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000100000",
+            "Y_WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:53.35-53.43"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6, 7 ],
+            "B": [ "0", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "Y": [ 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108 ]
+          }
+        },
+        "$mul$/home/designer/shared/sram_project/sram.v:54$38": {
+          "hide_name": 1,
+          "type": "$mul",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000010",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000100000",
+            "Y_WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:54.36-54.44"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 6, 7 ],
+            "B": [ "0", "0", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" ],
+            "Y": [ 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172 ]
+          }
+        },
+        "$not$/home/designer/shared/sram_project/sram.v:54$40": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:54.28-54.55"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 244 ],
+            "Y": [ 245 ]
+          }
+        },
+        "$procmux$75": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "/home/designer/shared/sram_project/sram.v:51.13-51.24|/home/designer/shared/sram_project/sram.v:51.9-62.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 245 ],
+            "S": [ 242 ],
+            "Y": [ 12 ]
+          }
+        },
+        "$procmux$78": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "/home/designer/shared/sram_project/sram.v:51.13-51.24|/home/designer/shared/sram_project/sram.v:51.9-62.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "z" ],
+            "B": [ 243 ],
+            "S": [ 242 ],
+            "Y": [ 11 ]
+          }
+        },
+        "$procmux$81": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "/home/designer/shared/sram_project/sram.v:40.13-40.24|/home/designer/shared/sram_project/sram.v:40.9-42.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "0" ],
+            "B": [ "1" ],
+            "S": [ 240 ],
+            "Y": [ 238 ]
+          }
+        },
+        "$procmux$84": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "/home/designer/shared/sram_project/sram.v:40.13-40.24|/home/designer/shared/sram_project/sram.v:40.9-42.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "x" ],
+            "B": [ 10 ],
+            "S": [ 240 ],
+            "Y": [ 237 ]
+          }
+        },
+        "$procmux$87": {
+          "hide_name": 1,
+          "type": "$mux",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000100000"
+          },
+          "attributes": {
+            "full_case": "00000000000000000000000000000001",
+            "src": "/home/designer/shared/sram_project/sram.v:40.13-40.24|/home/designer/shared/sram_project/sram.v:40.9-42.12"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "S": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x", "x" ],
+            "B": [ 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76 ],
+            "S": [ 240 ],
+            "Y": [ 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236 ]
+          }
+        }
+      },
+      "memories": {
+        "memory": {
+          "hide_name": 0,
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:23.9-23.15"
+          },
+          "width": 1,
+          "start_offset": 0,
+          "size": 16
+        }
+      },
+      "netnames": {
+        "$0$memwr$\\memory$/home/designer/shared/sram_project/sram.v:41$19_ADDR[31:0]$21": {
+          "hide_name": 1,
+          "bits": [ 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:37.5-44.8"
+          }
+        },
+        "$0$memwr$\\memory$/home/designer/shared/sram_project/sram.v:41$19_DATA[0:0]$22": {
+          "hide_name": 1,
+          "bits": [ 237 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:37.5-44.8"
+          }
+        },
+        "$0$memwr$\\memory$/home/designer/shared/sram_project/sram.v:41$19_EN[0:0]$23": {
+          "hide_name": 1,
+          "bits": [ 238 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:37.5-44.8"
+          }
+        },
+        "$add$/home/designer/shared/sram_project/sram.v:41$30_Y": {
+          "hide_name": 1,
+          "bits": [ 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:41.29-41.39"
+          }
+        },
+        "$add$/home/designer/shared/sram_project/sram.v:53$36_Y": {
+          "hide_name": 1,
+          "bits": [ 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:53.44-53.54"
+          }
+        },
+        "$add$/home/designer/shared/sram_project/sram.v:54$39_Y": {
+          "hide_name": 1,
+          "bits": [ 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:54.45-54.55"
+          }
+        },
+        "$logic_and$/home/designer/shared/sram_project/sram.v:40$25_Y": {
+          "hide_name": 1,
+          "bits": [ 240 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:40.13-40.24"
+          }
+        },
+        "$logic_and$/home/designer/shared/sram_project/sram.v:51$33_Y": {
+          "hide_name": 1,
+          "bits": [ 242 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:51.13-51.24"
+          }
+        },
+        "$logic_not$/home/designer/shared/sram_project/sram.v:40$24_Y": {
+          "hide_name": 1,
+          "bits": [ 239 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:40.19-40.24"
+          }
+        },
+        "$logic_not$/home/designer/shared/sram_project/sram.v:51$32_Y": {
+          "hide_name": 1,
+          "bits": [ 241 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:51.19-51.24"
+          }
+        },
+        "$memrd$\\memory$/home/designer/shared/sram_project/sram.v:53$34_DATA": {
+          "hide_name": 1,
+          "bits": [ 243 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:53.28-53.34"
+          }
+        },
+        "$memrd$\\memory$/home/designer/shared/sram_project/sram.v:54$37_DATA": {
+          "hide_name": 1,
+          "bits": [ 244 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:54.29-54.35"
+          }
+        },
+        "$mul$/home/designer/shared/sram_project/sram.v:41$29_Y": {
+          "hide_name": 1,
+          "bits": [ 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:41.20-41.28"
+          }
+        },
+        "$mul$/home/designer/shared/sram_project/sram.v:53$35_Y": {
+          "hide_name": 1,
+          "bits": [ 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:53.35-53.43"
+          }
+        },
+        "$mul$/home/designer/shared/sram_project/sram.v:54$38_Y": {
+          "hide_name": 1,
+          "bits": [ 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:54.36-54.44"
+          }
+        },
+        "$not$/home/designer/shared/sram_project/sram.v:54$40_Y": {
+          "hide_name": 1,
+          "bits": [ 245 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:54.28-54.55"
+          }
+        },
+        "clk": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:8.24-8.27"
+          }
+        },
+        "col_addr": {
+          "hide_name": 0,
+          "bits": [ 8, 9 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:15.24-15.32"
+          }
+        },
+        "cs": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:9.24-9.26"
+          }
+        },
+        "data_in": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:17.24-17.31"
+          }
+        },
+        "data_out": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:19.24-19.32"
+          }
+        },
+        "data_out_bar": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:20.24-20.36"
+          }
+        },
+        "rd_n": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:11.24-11.28"
+          }
+        },
+        "row_addr": {
+          "hide_name": 0,
+          "bits": [ 6, 7 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:14.24-14.32"
+          }
+        },
+        "wr_n": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "/home/designer/shared/sram_project/sram.v:10.24-10.28"
+          }
+        }
+      }
+    }
+  }
+}

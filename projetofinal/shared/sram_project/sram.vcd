@@ -1,0 +1,129 @@
+$date
+	Sat May 16 04:10:26 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_sram $end
+$var wire 1 ! data_out_bar $end
+$var wire 1 " data_out $end
+$var reg 1 # clk $end
+$var reg 2 $ col_addr [1:0] $end
+$var reg 1 % cs $end
+$var reg 1 & data_in $end
+$var reg 1 ' rd_n $end
+$var reg 2 ( row_addr [1:0] $end
+$var reg 1 ) wr_n $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 2 * col_addr [1:0] $end
+$var wire 1 % cs $end
+$var wire 1 & data_in $end
+$var wire 1 ' rd_n $end
+$var wire 2 + row_addr [1:0] $end
+$var wire 1 ) wr_n $end
+$var reg 1 " data_out $end
+$var reg 1 ! data_out_bar $end
+$var integer 32 , i [31:0] $end
+$var integer 32 - j [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100 -
+b100 ,
+b0 +
+b0 *
+1)
+b0 (
+1'
+0&
+0%
+b0 $
+0#
+z"
+z!
+$end
+#5000
+1#
+#10000
+0#
+1&
+b10 $
+b10 *
+b1 (
+b1 +
+0)
+1%
+#15000
+1#
+#20000
+0#
+1)
+#25000
+1#
+#30000
+0#
+0&
+b0 $
+b0 *
+b11 (
+b11 +
+0)
+#35000
+1#
+#40000
+0#
+1)
+#45000
+1#
+#50000
+0!
+1"
+0#
+b10 $
+b10 *
+b1 (
+b1 +
+0'
+#55000
+1#
+#60000
+0#
+#65000
+1#
+#70000
+1!
+0"
+0#
+b0 $
+b0 *
+b11 (
+b11 +
+#75000
+1#
+#80000
+0#
+#85000
+1#
+#90000
+z!
+z"
+0#
+1'
+0%
+#95000
+1#
+#100000
+0#
+#105000
+1#
+#110000
+0#

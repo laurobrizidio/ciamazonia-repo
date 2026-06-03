@@ -1,0 +1,5 @@
+- cell: sram
+  inout: []
+  input:
+  - oe_n
+  output: []

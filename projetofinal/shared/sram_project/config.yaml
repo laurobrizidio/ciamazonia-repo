@@ -1,0 +1,4 @@
+DESIGN_NAME: sram
+VERILOG_FILES: dir::sram.v
+CLOCK_PORT: clk
+CLOCK_PERIOD: 10

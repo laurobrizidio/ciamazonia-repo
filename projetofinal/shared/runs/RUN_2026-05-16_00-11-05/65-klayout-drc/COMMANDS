@@ -1,0 +1,1 @@
+klayout -b -zz -r /home/designer/shared/IHP-Open-PDK/ihp-sg13g2/libs.tech/klayout/tech/drc/sg13g2_maximal.lydrc -rd input=/home/designer/shared/runs/RUN_2026-05-16_00-11-05/57-magic-streamout/sram.gds -rd topcell=sram -rd report=/home/designer/shared/runs/RUN_2026-05-16_00-11-05/65-klayout-drc/reports/drc.klayout.lyrdb -rd densityRules=False -rd thr=24

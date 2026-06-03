@@ -1,0 +1,7 @@
+`verilator_config
+lint_off -rule DECLFILENAME
+lint_off -rule EOFNEWLINE
+lint_off -rule UNDRIVEN -file "/home/designer/shared/sram_project/runs/RUN_2026-05-16_03-58-08/tmp/21286021debd4751882f074f0ce953bb.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/home/designer/shared/sram_project/runs/RUN_2026-05-16_03-58-08/tmp/21286021debd4751882f074f0ce953bb.bb.v"
+lint_off -rule UNDRIVEN -file "/home/designer/shared/sram_project/runs/RUN_2026-05-16_03-58-08/tmp/2c31a7beb65c4f8bb410053e0a9d8988.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/home/designer/shared/sram_project/runs/RUN_2026-05-16_03-58-08/tmp/2c31a7beb65c4f8bb410053e0a9d8988.bb.v"

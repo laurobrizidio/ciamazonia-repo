@@ -1,0 +1,7 @@
+`verilator_config
+lint_off -rule DECLFILENAME
+lint_off -rule EOFNEWLINE
+lint_off -rule UNDRIVEN -file "/home/designer/shared/runs/RUN_2026-05-16_00-03-42/tmp/0d601458279f474299a26197bfe488c6.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/home/designer/shared/runs/RUN_2026-05-16_00-03-42/tmp/0d601458279f474299a26197bfe488c6.bb.v"
+lint_off -rule UNDRIVEN -file "/home/designer/shared/runs/RUN_2026-05-16_00-03-42/tmp/64e1ac016c15436cba975faeeb1d6036.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/home/designer/shared/runs/RUN_2026-05-16_00-03-42/tmp/64e1ac016c15436cba975faeeb1d6036.bb.v"
