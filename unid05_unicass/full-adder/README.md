@@ -54,7 +54,7 @@ Tabela verdade:
 Entre no diretorio da aula:
 
 ```bash
-cd unid05_unicass/aula0603
+cd unid05_unicass/full-adder
 ```
 
 Compile o design e o testbench:

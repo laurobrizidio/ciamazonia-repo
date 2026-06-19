@@ -56,7 +56,7 @@ Este diretorio contem apenas o modulo da FSM. Para simular, crie um testbench qu
 Exemplo de compilacao com Icarus Verilog:
 
 ```bash
-cd unid05_unicass/atv02
+cd unid05_unicass/moore-101-sequence-detector
 iverilog -g2012 FSM_moore.v fsm_tb.v -o fsm.out
 vvp fsm.out
 ```

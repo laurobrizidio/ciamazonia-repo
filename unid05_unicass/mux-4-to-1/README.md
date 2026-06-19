@@ -56,7 +56,7 @@ O sinal `S` percorre os valores de `0` a `3`, e o testbench verifica se `Y` corr
 Entre no diretorio do projeto:
 
 ```bash
-cd unid05_unicass/atv01/mux4
+cd unid05_unicass/mux-4-to-1/mux4
 ```
 
 Compile os arquivos SystemVerilog:
